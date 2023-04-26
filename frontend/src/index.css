@@ -1,0 +1,481 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #FFFBF4;
+  margin: 0;
+  font-family: "Poppins";
+}
+.web-title {
+  color: #FFFBF4;
+  font-family: "Poppins";
+}
+
+p {
+  font-family: "Poppins";
+}
+
+h1 {
+  color: #0F4F63;
+  font-family: "Poppins";
+}
+h2 {
+  color: #0F4F63;
+}
+header {
+  background: #FFFBF4;
+}
+.App {
+  background-color: #FFFBF4;
+  height: 100%;
+}
+.App {
+  background-color: #FFFBF4;
+  height: 100%;
+}
+
+header .container {
+  margin: 0 auto;
+  padding: 10px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0F4F63;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.landing-image{
+  width:100%;
+  max-width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: [col1-start] 30% [col2-start col1-end] 30%;
+  gap: 10%;
+  padding: 40px;
+  overflow: visible;
+}
+.workout-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.workout-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.workout-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* session-listing page */
+.home {
+  display: grid;
+  grid-template-columns: [col1-start] 30% [col2-start col1-end] 30%;
+  gap: 10%;
+}
+.workout-details {
+  background: #FFFBF4;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.workout-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.workout-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #FFFBF4;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #FFFBF4;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #FFFBF4;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #FFFBF4;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+.input-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: black;
+  background-color: white;
+  padding: 20px 0px 40px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* navbar */
+
+
+/* #session-title{
+  display: inline-block
+}
+#session-description{
+  display: inline-block;
+  padding-left: 400px
+  
+}
+
+#session-address{
+  display: inline-block
+}
+#session-date{
+  display: inline-block;
+  padding-left: 400px
+} */
+
+/* Individual Session page */
+
+.grid-item {
+  /*display: inline-block;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*align-items: flex-start;*/
+  background: -webkit-linear-gradient(top, #0F4F63, #0F4F63 30%, white 30%, white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px 20px 60px;
+  width: 40vw;
+  height: 20vh;
+  border-radius: 30px;
+  margin: 20px;
+  /*margin-left:70px;*/
+  /*margin-bottom:70px;*/
+}
+
+#host-title{
+  margin-right:1100px;
+}
+.session-header{
+  color:white;
+  top:-100px;
+}
+
+#session-block {
+ margin-left: 100px
+}
+
+.session-heading{
+
+}
+
+/* Profile Page */
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  position: fixed;
+  padding: 20px 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sign-out-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: -webkit-linear-gradient(top, #0F4F63, #0F4F63 30%, white 30%, white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  width: 85vw;
+  height: 50vh;
+  border-radius: 30px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.profile-sub-block-container {
+  display: grid;
+  justify-items: flex-end;
+  row-gap: 5vh;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+}
+
+.profile-sub-block {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30vw;
+  height: 40vh;
+  border-radius: 30px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: scroll;  
+}
+
+.profile-sub-block-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-img {
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+.myles-landing {
+  height: 600px;
+  position: absolute;
+  right: 100px;
+  z-index: 1;
+}
+
+.people-playing-landing {
+  position: absolute;
+  height: 450px;
+  bottom: 30px;
+  right: 200px;
+}
+
+.landing-text {
+  font-size: 25px;
+}
+
+.session-listing-card {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.session-listings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.session-listing-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.session-listing-icon {
+  margin-right: 10px;
+}
+
+.session-listing-text {
+  margin: 5px;
+}
+
+.session-listings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-auth-button {
+  margin-top: 20px;
+}
+
+.create-session-input-block {
+  display: flex-basis;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: black;
+  background-color: white;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40%;
+  min-width: 520px
+}
+
+.create-session-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reports-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50;
+  word-wrap: normal
+}
+
+.reports-list {
+  align-items: left;
+  margin-top: 0;
+  max-width: 50;
+
+}
+
+.session-information {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#leave-review{
+  text-align: center;
+  margin-top: 10vh;
+}
+
+#review-text-box{
+  width: 20vw;
+  justify-content: center;
+}
+
+#reviews-title{
+  text-align: center;
+}
+
+#reviewer-name{
+  text-align: center;
+}
+
+#reviewer-message{
+  text-align: center;
+}
+
+#review-cards{
+  width:600px;
+  padding-left:100px;
+}
+
+#review-submit-button{
+  padding-bottom: 100px;
+}
+
+#no-reviews-message{
+  text-align: center;
+}
+
+.search-location-input {
+  width: 130%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 5px;
+}
